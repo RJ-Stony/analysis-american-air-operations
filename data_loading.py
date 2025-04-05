@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Feb 28 09:16:03 2025
-"""
-
 import pandas as pd
 
 dfs = []
@@ -30,6 +25,3 @@ total_df = pd.concat(dfs2, ignore_index=True)
 total_df.head()
 
 total_df.columns
-
-
-
